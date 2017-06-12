@@ -21,6 +21,7 @@ define(['jquery','template','ckeditor','datepicker','language','uploadify','regi
                     $('.preview img:eq(0)').attr('src',data.result.path);
                 }
             });
+            
             // 处理三级联动
             $('#hometown').region({
                 url : '/public/assets/jquery-region/region.json'
